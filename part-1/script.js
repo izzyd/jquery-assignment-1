@@ -18,4 +18,15 @@
 
 $("<div>").addClass("view").appendTo(document.body);
 $("<div>").addClass("grass").appendTo(".view");
+$("<div>").addClass("sun").appendTo(".view");
+
+// while loop 
+var i = 0;
+while (i <= 5) {
+    $("<div>").addClass("ray-" + i).appendTo(".sun");
+    i++;
+}
+
+
+
 
