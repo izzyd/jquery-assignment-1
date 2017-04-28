@@ -27,6 +27,13 @@ while (i <= 5) {
     i++;
 }
 
+$("<div>").addClass("mountain").appendTo(".view");
+$("<div>").addClass("mountain-top").appendTo(".mountain");
 
+var i = 0;
+do {
+    $("<div>").addClass("mountain-cap-" + i).appendTo(".mountain-top");
+    i++;
+} while (i <= 3);
 
-
+// done! 
